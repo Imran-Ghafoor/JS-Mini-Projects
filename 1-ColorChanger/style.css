@@ -2,5 +2,22 @@ body{
     border: 20px solid rgb(226, 181, 205);
         padding:35px;
         margin: 30px;
+}
+.container{
+    text-align: center;
+    text-decoration: none;
+    margin: 100px auto 100px;
+    width: 80%;
+}
+
+span{
+    display: block;
+}
+.button{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: solid black 2px
+}
 
 
