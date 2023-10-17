@@ -19,5 +19,15 @@ span{
     display: inline-block;
     border: solid black 2px
 }
+#grey{
+    background: grey;
+}
+#wite{
+    background: white;
+}
+#blue {
+    background: blue;
+  }
+
 
 
