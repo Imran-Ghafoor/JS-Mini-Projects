@@ -26,5 +26,4 @@ buttons.forEach(function (button) {
         }
 
     });
-
 });
