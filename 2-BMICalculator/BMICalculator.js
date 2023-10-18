@@ -9,11 +9,11 @@ form.addEventListener('submit', function (e) {
     const results = document.querySelector('#results')
 
     if (height === '' || height < 0 || isNaN(height)) {
-        results.innerHTML = "Please give a valid Height";
+        results.innerHTML = `Please give a valid Height ${height}`;
 
     }
     else if (weight === '' || weight < 0 || isNaN(weight)) {
-        results.innerHTML = "Please give a valid Weight";
+        results.innerHTML = `Please give a valid Weight ${weight}`;
     } else {
         (weight / ((height * height / 1000)).toFixed(2))
 
