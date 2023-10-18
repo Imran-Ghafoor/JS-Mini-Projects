@@ -16,5 +16,7 @@ form.addEventListener('submit', function (e) {
         results.innerHTML = "Please give a valid Weight";
     } else {
         (weight / ((height * height / 1000)).toFixed(2))
+
+        //show the result
     }
 })
