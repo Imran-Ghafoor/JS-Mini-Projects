@@ -18,5 +18,6 @@ form.addEventListener('submit', function (e) {
         (weight / ((height * height / 1000)).toFixed(2))
 
         //show the result
+        results.innerHTML = `<span>${bmi}</span>`
     }
 })
