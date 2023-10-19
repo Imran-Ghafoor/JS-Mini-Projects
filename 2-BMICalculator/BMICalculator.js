@@ -1,3 +1,4 @@
+console.log(imran);
 const form = document.querySelector('form')
 
 // this usecase will give empty value
