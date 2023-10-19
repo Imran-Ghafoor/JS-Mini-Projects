@@ -1,32 +1,42 @@
 body{
    background: #710d0d;
 }
+h1{
+  text-decoration: underline;
+  text-underline-position: under;
+}
 .container {
     align-items: center;
     text-align: center;
     width: 575px;
     margin-left: 400px;
-    margin-top: 100px;
+    margin-top: 70px;
     background-color: #797978;
     border: 5px solid rgb(0, 0, 0);
   }
   #height,
   #weight {
+    margin-left: 20px;
     width: 150px;
     height: 25px;
     margin-top: 30px;
   }
   
   #weight-guide {
-    margin-left: 75px;
+    margin-left: 0px;
+    text-align: center;
     margin-top: 25px;
+  }
+  .underline{
+    text-underline-position: under;
+    text-decoration: underline;
   }
   
   #results {
     font-size: 35px;
-    margin-left: 90px;
+    margin-left: 30px;
     margin-top: 20px;
-    color: rgb(241, 241, 241);
+    color: rgb(255, 255, 255);
   }
   
   button {
@@ -39,6 +49,12 @@ body{
     text-decoration: none;
     border: 2px solid #420b0b;
     font-size: 25px;
+  }
+  .FootoCM{
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-left: 28rem;
+    /* 1rem = 16px */
   }
   
 
