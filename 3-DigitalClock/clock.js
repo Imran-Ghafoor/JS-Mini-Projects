@@ -1,3 +1,4 @@
+console.log(imran);
 const clock = document.getElementById('clock');
 // const cock = document.querySelector('clock')
 
